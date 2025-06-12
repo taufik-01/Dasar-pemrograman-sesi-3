@@ -1,0 +1,84 @@
+# No. 1 dan 2
+name = "isi dengan nama yang kita mau conto yusup "
+age = 20
+address = "Jl. Merdeka No.10"
+province = "Jawa Barat"
+scorePython = 87.5
+
+print("Nama:", name, "| Tipe:", type(name))
+print("Umur:", age, "| Tipe:", type(age))
+print("Alamat:", address, "| Tipe:", type(address))
+print("Provinsi:", province, "| Tipe:", type(province))
+print("Nilai Python:", scorePython, "| Tipe:", type(scorePython))
+
+#output yang akan muncul ketika kita run
+Nama: yusup | Tipe: <class 'str'>
+Umur: 20 | Tipe: <class 'int'>
+Alamat: Jl. Merdeka No.10 | Tipe: <class 'str'>
+Provinsi: Jawa Barat | Tipe: <class 'str'>
+Nilai Python: 87.5 | Tipe: <class 'float'>
+
+# No. 3
+nilai_int = 90
+nilai_float = 90.5
+nilai_str = "100"
+nilai_bool = True
+
+# int ke str dan float
+print("int ke str:", str(nilai_int))
+print("int ke float:", float(nilai_int))
+
+# float ke int dan str
+print("float ke int:", int(nilai_float))
+print("float ke str:", str(nilai_float))
+
+# bool ke int dan str
+print("bool ke int:", int(nilai_bool))
+print("bool ke str:", str(nilai_bool))
+
+# str ke int, float, bool
+print("str ke int:", int(nilai_str))
+print("str ke float:", float(nilai_str))
+print("str ke bool:", bool(nilai_str))
+
+#output yang akan muncul ketika kita run
+int ke str: 90
+int ke float: 90.0
+float ke int: 90
+float ke str: 90.5
+bool ke int: 1
+bool ke str: True
+str ke int: 100
+str ke float: 100.0
+str ke bool: True
+
+# No. 4
+angka = 25
+
+print("Desimal:", angka)
+print("Biner:", bin(angka))
+print("Oktal:", oct(angka))
+print("Heksadesimal:", hex(angka))
+
+#output yang akan muncul ketika kita run
+Desimal: 25
+Biner: 0b11001
+Oktal: 0o31
+Heksadesimal: 0x19
+
+# No. 5
+my_list = ["apel", "jeruk", "pisang"]
+my_tuple = (10, 20, 30)
+my_dict = {"nama": "yusup", "umur": 20, "kota": "Bandung"}
+
+list_of_dict = [
+    {"nama": "Andi", "umur": 18},
+    {"nama": "Budi", "umur": 19},
+    {"nama": "Citra", "umur": 20}
+]
+
+#output yang akan muncul ketika kita run
+List: ['apel', 'jeruk', 'pisang']
+Tuple: (10, 20, 30)
+Dictionary: {'nama': 'yusup', 'umur': 20, 'kota': 'Bandung'}
+List of Dictionary: [{'nama': 'Andi', 'umur': 18}, {'nama': 'Budi', 'umur': 19}, {'nama': 'Citra', 'umur': 20}]
